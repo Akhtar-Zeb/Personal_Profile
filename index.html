@@ -3,50 +3,49 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Personal Profile</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>Akhtar Zeb</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
 </head>
 <body>
-  <main>
-    <section class="about-me">
-      <div class="heading">
-        <img src="profile.png" alt="Profile image" width="150">
-        <h1>Akhtar Zeb</h1>
-        <p>Google-certified Data & IT Specialist</p>
+  <header>
+    <nav class="navbar">
+
+      <div class="logo">
+        <a href="#home"><img src="./images/logo-icon.jpeg" alt="logo image"></a>
       </div>
-      <p>Google-certified Data and IT Professional with hands-on experience in Data Analysis, Technical Support, and Process Automation. Completed multiple Google Professional Certificates, including Data Analytics, Advance Data Analytics, IT Support, and IT Automation with Python. Skilled in Python, SQL, R, Excel, and Tableau for  Data Cleaning, visualization, and Automation of workflows.
-        <br><br><br>
-        Strong analytical thinker with the ability to translate complex data into actionable insights to support
-business decision-making.Adept at troubleshootingITsystems,managing databases,and streamlining repetitive processes using automation tools.Passionate about continuous learning,data-driven problem solving, and applying technology to improve efficiency and performance.
-      </p>
-    </section>
-    <section class="certifications">
-      <div class="card">
-        <h3>Google Advance Data Analytics Professional Certificate - Coursera(2025)</h3>
-        <p>This certificate has seven courses that include hands-on,practice-based assessments are designed for advanced roles in data analytics and entry-level roles in data science.This include exploring large datasets, applying data analyses techniques,and building models to extract insights.</p>
-      </div>
-      <div class="card">
-        <h3>Google Data Analytics Professional Certificate — Coursera (2024)</h3>
-        <p>This certificate has eight courses that include hands-on, practice-based assessments using tools and platforms including Spreadsheets, SQL, Tableau, and R. I learn how to ask, prepare, analyze, and share data for thoughtful action.</p>
-      </div>
-      <div class="card">
-        <h3>Google IT Automation with Python Professional Certificate — Coursera (2024)</h3>
-        <p>This certificate has six-course developed by Google is designed to provide IT professional with in-demand skills – including Python, Git, and IT automation.</p>
-      </div>
-      <div class="card">
-        <h3>Google IT Support Professional Certificate — Coursera (2024)</h3>
-        <p>This Certificate has five courses that include hands-on, practice-based assessments and are designed for entry-level roles in IT support. Skills, including troubleshooting, customer service, networking operating systems, system administration, and security.</p>
-      </div>
-    </section>
-    <section class="skills">
-      <ul>
-        <li><strong>Programming & Tools:</strong> Python, R, SQL, Linux, Bash, Git, Jupyter Notebook</li>
-        <li><strong>Analytics & Visualization:</strong> Tableau, Google Sheets, Excel, Power BI, BigQuery, Data Cleaning, Data Storytelling</li>
-        <li><strong>Learning & Advanced Analytics:</strong> Pandas, NumPy, Scikit-learn, Regression Models, Clustering</li>
-        <li><strong>IT & Automation:</strong> Linux Administration, Troubleshooting, Networking, Python Scripting, Automation with APIs</li>
-        <li>Network Security, Threat Analysis, Incident Response, SIEM Tools, Security Frameworks</li>
+
+      <button class="menu-toggle" id="menu-toggle">
+        ☰
+      </button>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certificates">Certificates</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="about" class="about">
+      <h2>About Me</h2>
+      <div class="card">
+        <div>
+          <h3>Akhtar Zeb</h3>
+          <p>IT & DATA Professional</p>
+          <p>I am an IT and data professional interested in software development, data analytics, databases, and modern web technologies.</p>
+          <p>I enjoy building practical projects and improving my skills through hands-on learning and real-world applications.</p>
+        </div>
+        <div class="hero-img">
+          <img src="./images/hero-img.png" alt="Hero Image">
+        </div>
+      </div>
     </section>
   </main>
+
+  <script src="script.js"></script>
 </body>
 </html>
